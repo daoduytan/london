@@ -1,0 +1,55 @@
+.banner
+    background: #fff
+
+    &_inner 
+        position: relative
+
+    &_img 
+        img 
+            display: block 
+            max-width: 100%
+
+    &_text 
+        position: absolute
+        bottom: 80px
+        left: 0
+        width: 100%
+        text-align: center
+
+        &-g 
+            background: rgba($blue, .89)
+            font-size: 22px
+            color: #fff
+            padding: 15px 0
+            max-width: 610px
+            margin: auto
+            display: -block
+
+            .img 
+                position: absolute
+                top: -145px
+                left: 50%
+                transform: translateX(-50%)
+
+            h2 
+                font-size: 40px
+                font-weight: 700
+                text-transform: capitalize
+                color: $yellow
+                margin: 0
+
+                span 
+                    font-size: 123.5%
+
+        a 
+            display: inline-block 
+            background: $red
+            color: #fff
+            font-size: 20px
+            font-weight: bold
+            text-transform: uppercase
+            height: 60px
+            min-width: 190px
+            line-height: 60px
+            text-decoration: none
+            margin-top: 10px

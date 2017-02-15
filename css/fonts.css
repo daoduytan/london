@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Trajan';
+  src: url("./fonts/TrajanRegular.eot?#iefix") format("embedded-opentype"), url("./fonts/TrajanRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trajan';
+  src: url("./fonts/TrajanBold.eot");
+  src: url("./fonts/TrajanBold.eot?#iefix") format("embedded-opentype"), url("./fonts/TrajanBold.woff") format("woff"), url("./fonts/TrajanBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}

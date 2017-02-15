@@ -1,0 +1,25 @@
+@font-face {
+    font-family:'Trajan';
+    src: url('../fonts/TrajanPro-Bold.eot');
+	src: url('../fonts/TrajanPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TrajanPro-Bold.woff2') format('woff2'),
+		url('../fonts/TrajanPro-Bold.woff') format('woff'),
+		url('../fonts/TrajanPro-Bold.svg#TrajanPro-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-FB02;
+}
+
+@font-face {
+    font-family:'Trajan';
+    src: url('../fonts/TrajanPro-Regular.eot');
+	src: url('../fonts/TrajanPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TrajanPro-Regular.woff2') format('woff2'),
+		url('../fonts/TrajanPro-Regular.woff') format('woff'),
+		url('../fonts/TrajanPro-Regular.svg#TrajanPro-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-FB02;
+}

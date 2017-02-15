@@ -1,0 +1,76 @@
+// color 
+$yellow: #fff200
+$blue: #094182
+$red : #dc1111
+
+// setting 
+
+* 
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+body 
+    font-family:  Calibri, sans-serif
+
+.mb-0 
+    margin-bottom: 0 !important
+
+a 
+    text-decoration: none
+
+.section 
+    clear: both 
+    overflow: hidden
+
+.cf 
+    &:before, &:after 
+        content: "" 
+        display: table 
+        clear: both
+
+.Trajan-f 
+    font-family: Trajan, sans-serif
+
+.btn 
+    overflow: hidden 
+    position: relative
+
+    &:before
+        background: #fff
+        content: ""
+        height: 155px
+        left: -100px
+        opacity: .3
+        position: absolute
+        top: -50px
+        -webkit-transform: rotate(35deg)
+        transform: rotate(35deg)
+        -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1)
+        transition: all 1s cubic-bezier(0.19, 1, 0.22, 1)
+        width: 60px
+        z-index: 1
+
+    &:hover
+        text-decoration: none
+        &:before
+
+            left: 120%
+            -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1)
+            transition: all 1s cubic-bezier(0.19, 1, 0.22, 1)
+
+.video 
+    height: 0
+    margin-bottom: 0.88889rem
+    overflow: hidden
+    padding-bottom: 54.5%
+    padding-top: 1.38889rem
+    position: relative
+
+    iframe
+        height: 100%
+        position: absolute
+        top: 0
+        width: 100%
+        left: 0
+

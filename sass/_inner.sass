@@ -1,0 +1,118 @@
+.section 
+    &_head 
+        color: #04274e
+        padding: 50px 0 45px
+        h3 
+            font-size: 45px
+            font-weight: 700
+            margin: 0 0 20px
+        h4 
+            color: #dc1111
+            text-transform: uppercase
+            font-size: 24px
+            margin: 20px 0 0
+            line-height: 1.4
+        
+        p 
+            font-size: 22px
+            margin: 0
+
+    &_img
+        width: 50%
+        margin-top: 15px
+        img 
+            display: block 
+            width: 100%
+
+    &_video
+        width: 50%
+
+        
+    &_text 
+        font-size: 22px
+        color: #04274e
+        
+        h4 
+            font-size: 30px
+            margin: 0 0 10px
+            font-weight: bold
+            line-height: 1.5
+        p 
+            margin: 0 0 30px
+
+    &_main 
+        padding-bottom: 60px
+
+        &-full 
+            .section_img, .section_video
+                float: left
+
+            .section_text 
+                width: 50%
+                float: left
+                padding: 0 30px
+
+                
+
+        &-row 
+            .section_img 
+                width: 45%
+            .course 
+                position: relative
+              
+                
+                &:before, &:after 
+                    content: "" 
+                    display: table 
+                    clear: both
+
+                &:nth-child(2n+2)
+                    .section_img
+                        float: right
+
+                    .section_text 
+                        .col-sm-6 
+                            padding-right: 30px
+
+                &:nth-child(2n+1)
+                    .section_text 
+                        .col-sm-6 
+                            margin-left: 45%
+
+            .section_text 
+                position: absolute 
+                top: 0
+                left: 0
+                width: 100%
+
+                .col-sm-6 
+                    width: 55%
+
+
+.how-to-start 
+    .section_img 
+        margin-top: 20px
+    .img 
+        max-width: 300px
+        img 
+            display: block 
+            max-width: 100%
+    .section_text 
+        padding-left: 40px
+
+    ul 
+        list-style: none 
+        padding: 0
+        margin: 45px 0 0
+        font-size: 30px
+        color: #04274e
+
+        li 
+            margin-bottom: 45px
+
+            &:last-child 
+                margin-bottom: 0
+
+        
+
+        
